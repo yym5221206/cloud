@@ -41,9 +41,9 @@ subprojects {
               
         //)
 
-	    compile "com.alibaba:fastjson:1.1.31"
+	    //compile "com.alibaba:fastjson:1.1.31"
 	    
-	    compile group: 'com.alibaba', name: 'druid', version: '0.2.23'
+	    //compile group: 'com.alibaba', name: 'druid', version: '0.2.23'
 	    
 	    compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '1.5.3.RELEASE'
 	    compile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '1.5.3.RELEASE'

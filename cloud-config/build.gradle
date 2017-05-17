@@ -16,5 +16,10 @@ repositories {
 
 dependencies {
     compile group: 'org.springframework.cloud', name: 'spring-cloud-config-server', version: '1.2.1.RELEASE'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-eureka', version: '1.2.1.RELEASE'
+    //rabbitmq
+    // compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-bus-amqp', version: '1.2.1.RELEASE'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-bus-kafka', version: '1.2.1.RELEASE'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-actuator', version: '1.2.1.RELEASE'
 }
 
